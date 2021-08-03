@@ -11,17 +11,61 @@ Template: twentytwentyone
 */
 
 /*
-Colors :
+COLOR PALETTE
+
 #F9F3EF Neutral
 #5D1433 Burgandy accent color
 #949572 Green 
 */
 
+/* General style
+--------------------------------------*/
+
 body {
-  background-color: #F9F3EF !important;
-  /* background-color: #ffffff !important; */
+  background: #F9F3EF !important;
 }
 
 h1, h2 {
   color: #5D1433 !important;
+}
+
+
+
+/* Header
+--------------------------------------*/
+
+
+/* Header Menu 
+-------------------*/
+
+#masthead {
+  display: block;
+  padding-bottom: 2vh;
+}
+
+.site-header  #site-navigation .primary-menu-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.site-header #primary-menu-list .menu-item {
+  margin: auto;
+}
+
+
+/* Header Phone Menu 
+-------------------*/
+
+.site-header #site-navigation .menu-button-container {
+  background: #F9F3EF;
+}
+
+@media only screen and (max-width: 481px) {
+  .site-header #site-navigation .primary-menu-container {
+    background: #F9F3EF;
+    margin-top: 0% !important;
+    width: 100% !important;
+    padding-top: 20% !important;
+  }
 }
